@@ -29,8 +29,8 @@ with
             , nome_produto
             , quantidade_por_unidade
             , preco_por_unidade
-            , unidades_em_estoque
-            , unidades_por_ordem
+            , unidade_em_estoque
+            , unidade_por_ordem
             , nivel_reabastecimento
             , eh_discontinuado
         from {{ ref('stg_erp__produtos') }}
@@ -44,8 +44,8 @@ with
             , stg_produtos.nome_produto
             , stg_produtos.quantidade_por_unidade
             , stg_produtos.preco_por_unidade
-            , stg_produtos.unidades_em_estoque
-            , stg_produtos.unidades_por_ordem
+            , stg_produtos.unidade_em_estoque
+            , stg_produtos.unidade_por_ordem
             , stg_produtos.nivel_reabastecimento
             , stg_produtos.eh_discontinuado
             , stg_categorias.nome_categoria
