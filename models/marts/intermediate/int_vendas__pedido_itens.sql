@@ -3,7 +3,6 @@ with
         select *
         from {{ ref('stg_erp__ordens') }}
     )
-    
     , stg_ordem_detalhes as (
         select *
         from {{ ref('stg_erp__ordem_detalhes') }}
