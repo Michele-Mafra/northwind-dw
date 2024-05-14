@@ -14,24 +14,24 @@ models:
       - name: id_fornecedor
         description: <Chave estrangeira da tabela de fornecedor>
       - name: id_categoria
-        description: <Falta completar >
+        description: <Chave estrangeira da tabela produto>
       - name: nome_produto
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: quantidade_por_unidade
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: preco_por_unidade
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: unidade_em_estoque
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: unidade_por_ordem
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: nivel_reabastecimento
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: eh_discontinuado
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: nome_categoria
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
       - name: nome_fornecedor
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela fornecedor>
       - name: pais_fornecedor
-        description: <Falta completar>
+        description: <Chave estrangeira da tabela produto>
